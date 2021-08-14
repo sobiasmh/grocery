@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+.navbar-brand:hover{
+    color: green;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: white;
+}
+
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1{
+    background-color: green;
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+
+}
+.btn1:hover{
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 75) ;
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 75) ;
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 75) ;
+    transition: 0.5s;
+}
+
+.newsletter{
+    background-color: rgb(104, 228, 104);
+    color: white;
+}
+.newsletter input{
+    height: 45px;
+    width:55%;
+    border:2px solid green;
+    outline:none;
+    background-color: white;
+    color:black;
+    margin-top: 20px;
+    font-weight: 400;
+
+
+}
+.newsletter p{
+    margin:0;
+}
+.btn2{
+    background-color:lightgreen;
+    height: 45px;
+    width: 100px;
+    border: 2px solid green;
+    margin-left: -10px;
+    font-weight: 600;
+    color: White
+  
+}
+.btn2:hover{
+    background-color: green;
+    transition: 0.5s;
+}
